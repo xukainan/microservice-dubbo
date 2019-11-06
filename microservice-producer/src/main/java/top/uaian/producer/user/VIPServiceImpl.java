@@ -12,8 +12,8 @@ import top.uaian.api.user.UserService;
  * version: 1.0 <br>
  */
 @Component
-@Service(timeout = 3000,retries = 5,version = "1.0.0")
-public class UserServiceImpl implements UserService {
+@Service(timeout = 3000,retries = 5,version = "2.0.0")
+public class VIPServiceImpl implements UserService {
 
     @Override
     public User get(int id){
@@ -23,7 +23,7 @@ public class UserServiceImpl implements UserService {
             }catch (Exception e) {
                 e.printStackTrace();
             }
-            return new User(1,"徐锴男","北京房山");
+            return new User(1,"刘玉婷","广州白云");
         }
         return null;
     }

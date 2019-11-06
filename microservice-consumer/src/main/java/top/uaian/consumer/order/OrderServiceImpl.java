@@ -19,11 +19,11 @@ import top.uaian.api.user.UserService;
 @Service
 public class OrderServiceImpl implements OrderService {
 
-    @Reference
+    @Reference(version = "2.0.0")
     private UserService userService;
 
     @Override
-    public Order get(long id) {
+    public Order get(long id){
         User user = userService.get(1);
         if (id == 20191106L) {
             return new Order(20191106L,"内存条", 257.22, user.getName());
