@@ -2,6 +2,7 @@ package top.uaian.consumer.order;
 
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.config.annotation.Service;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import top.uaian.api.model.Order;
 import top.uaian.api.model.User;
