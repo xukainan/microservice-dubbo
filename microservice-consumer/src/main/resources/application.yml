@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: microservice-consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  monitor:
+    protocol: true
+server:
+  port: 8083
+

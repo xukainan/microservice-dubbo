@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: microservice-producer
+  monitor:
+    protocol: registry
+  protocol:
+    name: dubbo
+    port: 28080
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    id: dubbo-registry

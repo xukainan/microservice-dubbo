@@ -4,15 +4,16 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>top.uaian</groupId>
-    <artifactId>dubbo-demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>microservice-dubbo</artifactId>
+    <version>0.0.1</version>
     <packaging>pom</packaging>
-    <name>dubbo-demo</name>
-    <description>dubbo-demo project</description>
+    <name>microservice-dubbo</name>
+    <description>microservice-dubbo</description>
 
     <modules>
-        <module>core</module>
-        <module>facade</module>
+        <module>microservice-api</module>
+        <module>microservice-consumer</module>
+        <module>microservice-producer</module>
     </modules>
 
     <parent>
