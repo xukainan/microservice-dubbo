@@ -19,7 +19,7 @@ import top.uaian.api.user.UserService;
 @Service
 public class OrderServiceImpl implements OrderService {
 
-    @Reference(version = "2.0.0")
+    @Reference(version = "2.0.0",loadbalance = "roundrobin")
     private UserService userService;
 
     @Override

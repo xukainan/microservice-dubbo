@@ -5,7 +5,9 @@ dubbo:
     protocol: registry
   protocol:
     name: dubbo
-    port: 28080
+    port: 28081
   registry:
-    address: zookeeper://127.0.0.1:2181
+    address: zookeeper://uaian.top:2181
     id: dubbo-registry
+server:
+  port: 8084

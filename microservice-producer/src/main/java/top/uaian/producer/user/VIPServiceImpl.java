@@ -17,6 +17,7 @@ public class VIPServiceImpl implements UserService {
 
     @Override
     public User get(int id){
+        System.out.println("id ： " + id);
         if(id == 1 ) {
             try{
                 Thread.sleep(2000);
